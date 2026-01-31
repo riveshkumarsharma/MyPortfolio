@@ -43,17 +43,17 @@ const Footer = () => {
           {[
             {
               icon: <FaWhatsapp />,
-              link: "https://wa.me/917388798950?text=Hey%20Shivam%20Kamal!",
+              link: "https://wa.me/918957079509?text=Hello%20Rivesh%20Kumar%20Sharma!",
             },
             {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/shivamkamal/",
+              link: "https://www.linkedin.com/in/rivesh-kumar-sharma-b22b00288/",
             },
             { icon: <FaGithub />,
-              link: "https://github.com/ShivamKamal07" },
+              link: "https://github.com/riveshkumarsharma" },
             {
               icon: <FaInstagram />,
-              link: "https://www.instagram.com/shivam_kamal__007/",
+              link: "https://www.instagram.com/rivesh_890?igsh=MnA1cm1pb2duM3pv",
             },
           ].map((item, index) => (
             <a
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         {/* copyright text  */}
         <p className="text-sm text-gray-400 mt-6 ">
-          © 2025 Shivam kamal. All rights reserved.
+          © 2025 Rivesh kumar Sharma. All rights reserved.
         </p>
       </div>
     </footer>

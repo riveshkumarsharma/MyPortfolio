@@ -118,7 +118,7 @@ const Navbar = () => {
           {/* social media icons  */}
           <div className="hidden md:flex space-x-4 text-inherit ">
             <a
-              href="https://github.com/ShivamKamal07"
+              href="https://github.com/riveshkumarsharma"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec]"
@@ -126,7 +126,7 @@ const Navbar = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shivamkamal/"
+              href="https://www.linkedin.com/in/rivesh-kumar-sharma-b22b00288/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec]"
@@ -134,7 +134,7 @@ const Navbar = () => {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://wa.me/917388798950?text=Hello%20Shivam%20Kamal!"
+              href="https://wa.me/918957079509?text=Hello%20Rivesh%20Kumar%20Sharma!"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec]"
@@ -184,7 +184,7 @@ const Navbar = () => {
           ))}
           <div className="flex space-x-4">
             <a
-              href="https://github.com/ShivamKamal07"
+              href="https://github.com/riveshkumarsharma"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white"
@@ -192,7 +192,7 @@ const Navbar = () => {
               <FaGithub size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shivamkamal/"
+              href="https://www.linkedin.com/in/rivesh-kumar-sharma-b22b00288/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white"
@@ -200,7 +200,7 @@ const Navbar = () => {
               <FaLinkedin size={24} />
             </a>
             <a
-              href="https://wa.me/917388798950?text=Hello%20Shivam%20Kamal!"
+              href="https://wa.me/918957079509?text=Hello%20Rivesh%20Kumar%20Sharma!"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-[#8245ec]"
