@@ -174,8 +174,8 @@ export const projects = [
       "MongoDB",
       "REST API",
     ],
-    github: "https://github.com/ShivamKamal07/Airbnb",
-    webapp: "https://wanderlust-vtdo.onrender.com/listings",
+    github: "https://github.com/riveshkumarsharma/airbnb",
+    webapp: "https://airbnb-qvr0.onrender.com/listings",
   },
   {
     id: 2,
@@ -191,7 +191,7 @@ export const projects = [
       "REST API",
       "Bootstrap",
     ],
-    github: "https://github.com/ShivamKamal07/Zerodha",
+    github: "https://github.com/riveshkumarsharma/Zerodha",
     webapp: "",
   },
 
@@ -220,8 +220,8 @@ export const projects = [
       "EduPlayRural is a web-based learning platform designed to make education more accessible for rural students. It offers interactive lessons, quizzes, smart notebooks, progress tracking, leaderboards, and an AI-powered chatbot — all within a bilingual (Hindi and English) dashboard.Built with Python (Django), HTML, CSS, and JavaScript, the platform provides personalized learning experiences where students can view progress across subjects like Hindi, English, Math, and Science, engage in self-assessment quizzes, and compete with peers through a leaderboard system.",
     image: EduPlayRural,
     tags: ["JavaScript", "Python(Django)", "Bootstrap", "SQLite"],
-    github: "https://github.com/ShivamKamal07/EduPlayRural",
-    webapp: "https://eduplayrural.onrender.com/",
+    github: "https://github.com/riveshkumarsharma/EduPlay-Rural",
+    webapp: " ",
   },
 ];
 
