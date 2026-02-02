@@ -18,7 +18,7 @@ import renderLogo from "./assets/tech_logo/render.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 
 // Education Section Logo's
-import upBoard from "./assets/education_logo/upBoard.png";
+import cbseBoard from "./assets/education_logo/cbseBoard.png";
 import foet from "./assets/education_logo/foet.png";
 // Project Section Logo's
 import EduPlayRural from "./assets/work_logo/EduPlayRural.png";
@@ -137,25 +137,25 @@ export const education = [
     img: foet,
     school: "University of Lucknow, Lucknow",
     date: "2023 - 2027",
-    grade: "7.1 CGPA",
+    grade: "7.9 CGPA",
     degree: "Bachelor of Technology",
     Domain: "CSE",
   },
   {
     id: 1,
-    img: upBoard,
-    school: "Ram Sahay IC Bairi Shivrajpur Kanpur Nagar",
-    date: "2020 - 2022",
-    grade: "68%",
-    degree: "UP-BOARD(XII) - PCM",
+    img:  cbseBoard,
+    school: "DABBLE Public School Lucknow UP ",
+    date: "2021 - 2023",
+    grade: "71%",
+    degree: "CBSE-BOARD(XII) - PCM",
   },
   {
     id: 2,
-    img: upBoard,
-    school: "GOVT High School Beeramau Kanpur Nagar",
-    date: "2018 - 2020",
-    grade: "81%",
-    degree: "UP-BOARD(X)",
+    img:  cbseBoard,
+    school: "DABBLE Public School Lucknow UP ",
+    date: "2019 - 2021",
+    grade: "66%",
+    degree: "CBSE-BOARD(X)",
   },
 ];
 
