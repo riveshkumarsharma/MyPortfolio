@@ -25,6 +25,7 @@ import EduPlayRural from "./assets/work_logo/EduPlayRural.png";
 import Airbnb from "./assets/work_logo/Airbnb.png";
 import Zerodha from "./assets/work_logo/Zerodha.png";
 import AiVoice from "./assets/work_logo/AiVoice.png";
+import AutomatedTrainingSystem from "./assets/work_logo/AutomatedTrainingSystem.png";
 
 // certificates&extraCurriculuarActivities images
 
@@ -222,6 +223,15 @@ export const projects = [
     tags: ["JavaScript", "Python(Django)", "Bootstrap", "SQLite"],
     github: "https://github.com/riveshkumarsharma/EduPlay-Rural",
     webapp: " ",
+  },
+  {
+    id: 5,
+    title: "Automated Training Management System for Railway",
+    description:"Designed to digitize the manual record-keeping processes of the Rolling Stock Workshop, the platform serves as a centralized hub for managing the entire trainee lifecycle.",
+    image: AutomatedTrainingSystem,
+    tags: ["React", "MongoDB", "Node.js", "TailwindCSS"],
+    github: "https://github.com/riveshkumarsharma/railways_app",
+    webapp: "https://railwaysapp.vercel.app/",
   },
 ];
 
