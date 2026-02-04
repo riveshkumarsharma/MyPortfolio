@@ -12,10 +12,11 @@ import pythonLogo from "./assets/tech_logo/python.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
-import netlifyLogo from "./assets/tech_logo/netlify.png";
+// import netlifyLogo from "./assets/tech_logo/netlify.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import renderLogo from "./assets/tech_logo/render.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
 
 // Education Section Logo's
 import cbseBoard from "./assets/education_logo/cbseBoard.png";
@@ -122,8 +123,8 @@ export const SkillsInfo = [
 
   {
     id: 16,
-    name: "Netlify",
-    logo: netlifyLogo,
+    name: "Vercel",
+    logo: vercelLogo,
   },
   {
     id: 17,
@@ -180,23 +181,14 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Zerodha",
-    description:
-      "A real-time stock trading simulation platform developed using React.js, Node.js, Express.js, and MongoDB. Includes portfolio management, live market API integration, and interactive data visualization using Chart.js/Recharts. Implements a role-based authentication system for realistic trading workflows and secure user sessions.",
-    image: Zerodha,
-    tags: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "REST API",
-      "Bootstrap",
-    ],
-    github: "https://github.com/riveshkumarsharma/Zerodha",
-    webapp: "",
+    title: "Automated Training Management System for Railway",
+    description:"Designed to digitize the manual record-keeping processes of the Rolling Stock Workshop, the platform serves as a centralized hub for managing the entire trainee lifecycle.",
+    image: AutomatedTrainingSystem,
+    tags: ["React", "MongoDB", "Node.js", "TailwindCSS"],
+    github: "https://github.com/riveshkumarsharma/railways_app",
+    webapp: "https://railwaysapp.vercel.app/",
   },
-
-  {
+ {
     id: 3,
     title: "AI-Voice-Interview-Platform",
     description:
@@ -224,14 +216,22 @@ export const projects = [
     github: "https://github.com/riveshkumarsharma/EduPlay-Rural",
     webapp: " ",
   },
-  {
+   {
     id: 5,
-    title: "Automated Training Management System for Railway",
-    description:"Designed to digitize the manual record-keeping processes of the Rolling Stock Workshop, the platform serves as a centralized hub for managing the entire trainee lifecycle.",
-    image: AutomatedTrainingSystem,
-    tags: ["React", "MongoDB", "Node.js", "TailwindCSS"],
-    github: "https://github.com/riveshkumarsharma/railways_app",
-    webapp: "https://railwaysapp.vercel.app/",
+    title: "Zerodha",
+    description:
+      "A real-time stock trading simulation platform developed using React.js, Node.js, Express.js, and MongoDB. Includes portfolio management, live market API integration, and interactive data visualization using Chart.js/Recharts. Implements a role-based authentication system for realistic trading workflows and secure user sessions.",
+    image: Zerodha,
+    tags: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST API",
+      "Bootstrap",
+    ],
+    github: "https://github.com/riveshkumarsharma/Zerodha",
+    webapp: "",
   },
 ];
 
