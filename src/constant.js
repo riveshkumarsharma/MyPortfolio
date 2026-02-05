@@ -220,7 +220,7 @@ export const projects = [
     image: EduPlayRural,
     tags: ["JavaScript", "Python(Django)", "Bootstrap", "SQLite"],
     github: "https://github.com/riveshkumarsharma/EduPlay-Rural",
-    webapp: " ",
+    webapp: "https://eduplayrural.onrender.com/",
   },
    {
     id: 5,
