@@ -12,7 +12,7 @@ import pythonLogo from "./assets/tech_logo/python.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
-// import netlifyLogo from "./assets/tech_logo/netlify.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import renderLogo from "./assets/tech_logo/render.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
@@ -30,18 +30,19 @@ import AutomatedTrainingSystem from "./assets/work_logo/AutomatedTrainingSystem.
 
 // certificates&extraCurriculuarActivities images
 
-import cyber from "./assets/certificate_activity_img/cyber.png";
-import cdac from "./assets/certificate_activity_img/cdac.png";
-import Ai from "./assets/certificate_activity_img/Ai.png";
-import Ailogo from "./assets/certificate_activity_img/Ailogo.jpeg";
+import software from "./assets/certificate_activity_img/SUPERVISORSTRAININGCENTRE.png";
+import Railways from "./assets/certificate_activity_img/railwaysLogo.png";
+import WebDevelopment from "./assets/certificate_activity_img/WebDevelopment.png";
+import Devlogo from "./assets/certificate_activity_img/internlogo.png";
+import JavaDevelopment from "./assets/certificate_activity_img/JavaDevelopment.png";
+import Jvlogo from "./assets/certificate_activity_img/FutureIn.png";
 import GenAi from "./assets/certificate_activity_img/GenAi.jpeg";
 import GenAiLogo from "./assets/certificate_activity_img/GenAilogo.png";
-import fullStack from "./assets/certificate_activity_img/fullStack.png";
-import fullStackLogo from "./assets/certificate_activity_img/fullStackLogo.png";
+
 
 import KaggleCommunityMember from "./assets/certificate_activity_img/KaggleCommunityMember.png";
 import prism from "./assets/certificate_activity_img/prism.png";
-import Vampire from "./assets/certificate_activity_img/Vampire.png";
+import KagglePython from "./assets/certificate_activity_img/Python Coder.png";
 
 export const SkillsInfo = [
   {
@@ -131,6 +132,11 @@ export const SkillsInfo = [
     name: "Render",
     logo: renderLogo,
   },
+   {
+    id: 18,
+    name: "Netlify",
+    logo: netlifyLogo,
+  },
 ];
 
 export const education = [
@@ -203,7 +209,7 @@ export const projects = [
       "Vapi Workflows",
       "typeScript",
     ],
-    github: "https://github.com/ShivamKamal07/AI-Voice-Interview-Platform",
+    github: "https://github.com/riveshkumarsharma/AI-Voice-Interview-Platform",
     webapp: "https://voiceagent-px87.onrender.com",
   },
   {
@@ -238,44 +244,43 @@ export const projects = [
 export const certificates = [
   {
     id: 1,
-    title: "Ethical Hacking and Penetration Testing",
-    issuer: " C-DAC, NOIDA",
+    title: "Software Development for Data Keeping",
+    issuer: " Supervisors Training Centre, Northern Railway, Lucknow",
     date: "11th Nov 2024 to 26th Dec 2024",
-    description:
-      "Completed the Ethical Hacking & Penetration Testing training and virtual internship by C-DAC Noida, gaining hands-on experience with security assessment, vulnerability scanning, and ethical hacking techniques.",
-    certificateImage: cyber,
-    logo: cdac,
+    description:"Underwent a Summer Internship at the Rolling Stock Workshop, Northern Railway. Developed software for STC data management, including modules for joining, feedback, training, exams, and marks tracking. Gained hands-on experience in software development, data handling, and process automation while contributing to the digital transformation of railway training operations.",
+    certificateImage: software,
+    logo: Railways,
   },
   {
     id: 2,
     title:
-      "Artificial Intelligence Summer Internship – Codevirus Security Pvt. Ltd.",
-    issuer: "Codevirus Security",
+      "Web Development Internship",
+    issuer: "InternPe",
     date: "16th june 2025 To 30th July 2025",
     description:
       "Successfully completed a 45-day offline Summer Internship with Codevirus Security Pvt. Ltd. in the field of Artificial Intelligence (16 June–30 July 2025). During the program, I worked on AI concepts, models, and real-world applications while strengthening analytical and problem-solving skills through industry-focused training.",
-    certificateImage: Ai,
-    logo: Ailogo,
+    certificateImage: WebDevelopment,
+    logo: Devlogo,
   },
+  // {
+  //   id: 3,
+  //   title: "Generative AI Mastery Workshop & Buildathon – NxtWave",
+  //   issuer: "NXTWave",
+  //   date: "31th August 2025",
+  //   description:
+  //     "Participated in India’s biggest GenAI Buildathon organized by NxtWave as part of the OpenAI Academy Learning Community. Completed the Generative AI Mastery Workshop, learning about modern GenAI tools, prompt engineering, and practical AI application development.",
+  //   certificateImage: GenAi,
+  //   logo: GenAiLogo,
+  // },
   {
     id: 3,
-    title: "Generative AI Mastery Workshop & Buildathon – NxtWave",
-    issuer: "NXTWave",
-    date: "31th August 2025",
+    title: "Java Development Internship",
+    issuer: "Future Intern",
+    date: "Completed 2025",
     description:
-      "Participated in India’s biggest GenAI Buildathon organized by NxtWave as part of the OpenAI Academy Learning Community. Completed the Generative AI Mastery Workshop, learning about modern GenAI tools, prompt engineering, and practical AI application development.",
-    certificateImage: GenAi,
-    logo: GenAiLogo,
-  },
-  {
-    id: 4,
-    title: "Full Stack Web Development Certification – Apna College",
-    issuer: "Apna College",
-    date: "December 2023",
-    description:
-      "Completed the Delta Full Stack Web Development Course by Apna College, covering the complete MERN stack including HTML, CSS, JavaScript, React.js, Node.js, Express.js, and MongoDB. This course helped me strengthen my fundamentals in frontend and backend development while building multiple real-world projects.",
-    certificateImage: fullStack,
-    logo: fullStackLogo,
+      "Successfully completed an intensive internship program in Java Development. Contributed significantly to team projects while demonstrating dedication, technical skills, and professional growth in Java programming.",
+    certificateImage: JavaDevelopment,
+    logo: Jvlogo,
   },
 ];
 
@@ -298,10 +303,10 @@ export const extraCurricularActivities = [
   },
   {
     id: 3,
-    title: "Kaggle Vampire Badge",
+    title: "Kaggle Python Coder Badge",
     date: "2025",
     description:
-      "Achieved the Kaggle Vampire badge for consistent and active participation on the platform during late hours, demonstrating dedication and discipline towards learning and working on real-world problems. This badge represents commitment, curiosity, and continuous learning in the field of data science and machine learning.",
-    certificateImage: Vampire,
+      "Successfully completed Kaggle's Python competency requirements, demonstrating a strong command of core programming concepts including data structures, functions, and control flow. This certification validates the foundational programming skills necessary for data manipulation and machine learning pipelines.",
+    certificateImage: KagglePython,
   },
 ];
