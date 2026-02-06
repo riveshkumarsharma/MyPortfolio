@@ -154,7 +154,7 @@ export const education = [
     img:  cbseBoard,
     school: "DABBLE Public School Lucknow UP ",
     date: "2021 - 2023",
-    grade: "71%",
+    grade: "74%",
     degree: "CBSE-BOARD(XII) - PCM",
   },
   {
