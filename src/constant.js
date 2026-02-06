@@ -256,9 +256,9 @@ export const certificates = [
     title:
       "Web Development Internship",
     issuer: "InternPe",
-    date: "16th june 2025 To 30th July 2025",
+    date: "14 April 2025 to 11 May 2025",
     description:
-      "Successfully completed a 45-day offline Summer Internship with Codevirus Security Pvt. Ltd. in the field of Artificial Intelligence (16 June–30 July 2025). During the program, I worked on AI concepts, models, and real-world applications while strengthening analytical and problem-solving skills through industry-focused training.",
+      "Recognized for sincere and dedicated work as a Web Development intern. Gained professional experience in building web solutions and demonstrated excellent job knowledge during the training period.",
     certificateImage: WebDevelopment,
     logo: Devlogo,
   },
