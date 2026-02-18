@@ -36,8 +36,12 @@ import WebDevelopment from "./assets/certificate_activity_img/WebDevelopment.png
 import Devlogo from "./assets/certificate_activity_img/internlogo.png";
 import JavaDevelopment from "./assets/certificate_activity_img/JavaDevelopment.png";
 import Jvlogo from "./assets/certificate_activity_img/FutureIn.png";
-import GenAi from "./assets/certificate_activity_img/GenAi.jpeg";
-import GenAiLogo from "./assets/certificate_activity_img/GenAilogo.png";
+import USDAi from "./assets/certificate_activity_img/USDMasterclass.png";
+import USDAiLogo from "./assets/certificate_activity_img/USDMasterclassLogo.png";
+
+
+// import GenAi from "./assets/certificate_activity_img/GenAi.jpeg";
+// import GenAiLogo from "./assets/certificate_activity_img/GenAilogo.png";
 
 
 import KaggleCommunityMember from "./assets/certificate_activity_img/KaggleCommunityMember.png";
@@ -281,6 +285,16 @@ export const certificates = [
       "Successfully completed an intensive internship program in Java Development. Contributed significantly to team projects while demonstrating dedication, technical skills, and professional growth in Java programming.",
     certificateImage: JavaDevelopment,
     logo: Jvlogo,
+  },
+   {
+    id: 4,
+    title: "USD Masterclass: Real-World Adversarial Testing for AI-Enabled Systems",
+    issuer: "University of San Diego",
+    date: "14th February 2026",
+    description:
+     "Participated in a specialized masterclass led by Dr. Haydar Majeed, focused on adversarial testing and security vulnerabilities in AI-enabled systems. Gained insights into identifying and mitigating real-world threats to AI infrastructure and model integrity.",
+    certificateImage: USDAi,
+    logo: USDAiLogo,   
   },
 ];
 
